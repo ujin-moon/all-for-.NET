@@ -1,0 +1,8 @@
+D:\Учеба\Проверка\.NET\classs\bin\Debug\classs.exe.config
+D:\Учеба\Проверка\.NET\classs\bin\Debug\classs.exe
+D:\Учеба\Проверка\.NET\classs\bin\Debug\classs.pdb
+D:\Учеба\Проверка\.NET\classs\obj\Debug\classs.csproj.AssemblyReference.cache
+D:\Учеба\Проверка\.NET\classs\obj\Debug\classs.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\Проверка\.NET\classs\obj\Debug\classs.csproj.CoreCompileInputs.cache
+D:\Учеба\Проверка\.NET\classs\obj\Debug\classs.exe
+D:\Учеба\Проверка\.NET\classs\obj\Debug\classs.pdb
