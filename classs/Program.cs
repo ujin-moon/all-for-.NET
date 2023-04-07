@@ -11,16 +11,36 @@ namespace classs
     {
         static void Main(string[] args)
         {
-            Calculate(5);
-            Console.ReadLine(); 
+            State state1 = new State(); // Структура State
+            State state2 = new State();
+            state2.x = 1;
+            state2.y = 2;
+            state1 = state2;
+            state2.x = 5; // state1.x=1 по-прежнему
+            Console.WriteLine(state1.x); // 1
+            Console.WriteLine(state2.x); // 5
+
+            Country country1 = new Country(); // Класс Country
+            Country country2 = new Country();
+            country2.x = 1;
+            country2.y = 4;
+            country1 = country2;
+            country2.x = 7; // теперь и country1.x = 7, так как обе ссылки и country1 и country2 
+                            // указывают на один объект в хипе
+            Console.WriteLine(country1.x); // 7
+            Console.WriteLine(country2.x); // 7
+            Console.ReadLine();
         }
 
-        static void Calculate(int t)
+        struct State
         {
-            int x = 6;
-            int y = 7;
-            int z = y + t;
-            Console.WriteLine($"Итоговое число {z}");
+            public int x;
+            public int y;
+        }
+        class Country
+        {
+            public int x;
+            public int y;
         }
     }
 }
