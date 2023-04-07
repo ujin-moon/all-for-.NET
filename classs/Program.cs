@@ -1,37 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace classs
 {
-    internal class Program
+    class Program
     {
-        public struct Dog {
-            public string name;
-            public int age;
-
-            public void Print()
-            {
-                Console.WriteLine($"Имя собаки: {name}, возвраст {age} лет");
-            }
-        
-        }
-
         static void Main(string[] args)
-        {        
-            Dog dog1 = new Dog();
-            dog1.name = "Tom";
-            dog1.age = 5;
-            dog1.Print();
-
-
-            Person person1 = new Person();
-            person1.PrintInfo("Андрей", 12);
-            Console.ReadLine();
+        {
+            Calculate(5);
+            Console.ReadLine(); 
         }
 
-
+        static void Calculate(int t)
+        {
+            int x = 6;
+            int y = 7;
+            int z = y + t;
+            Console.WriteLine($"Итоговое число {z}");
+        }
     }
 }
