@@ -1,0 +1,15 @@
+D:\Учеба\Проверка\.NET\class\bin\Debug\net7.0\class.exe
+D:\Учеба\Проверка\.NET\class\bin\Debug\net7.0\class.deps.json
+D:\Учеба\Проверка\.NET\class\bin\Debug\net7.0\class.runtimeconfig.json
+D:\Учеба\Проверка\.NET\class\bin\Debug\net7.0\class.dll
+D:\Учеба\Проверка\.NET\class\bin\Debug\net7.0\class.pdb
+D:\Учеба\Проверка\.NET\class\obj\Debug\net7.0\class.csproj.AssemblyReference.cache
+D:\Учеба\Проверка\.NET\class\obj\Debug\net7.0\class.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\Проверка\.NET\class\obj\Debug\net7.0\class.AssemblyInfoInputs.cache
+D:\Учеба\Проверка\.NET\class\obj\Debug\net7.0\class.AssemblyInfo.cs
+D:\Учеба\Проверка\.NET\class\obj\Debug\net7.0\class.csproj.CoreCompileInputs.cache
+D:\Учеба\Проверка\.NET\class\obj\Debug\net7.0\class.dll
+D:\Учеба\Проверка\.NET\class\obj\Debug\net7.0\refint\class.dll
+D:\Учеба\Проверка\.NET\class\obj\Debug\net7.0\class.pdb
+D:\Учеба\Проверка\.NET\class\obj\Debug\net7.0\class.genruntimeconfig.cache
+D:\Учеба\Проверка\.NET\class\obj\Debug\net7.0\ref\class.dll

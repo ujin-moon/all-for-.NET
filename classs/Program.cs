@@ -1,4 +1,5 @@
 ﻿using System;
+using Persons;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -29,6 +30,8 @@ namespace classs
                             // указывают на один объект в хипе
             Console.WriteLine(country1.x); // 7
             Console.WriteLine(country2.x); // 7
+            Person person = new Person() { Name = "John", Age = 12 };
+            person.PrintInfo("John", 12);
             Console.ReadLine();
         }
 
