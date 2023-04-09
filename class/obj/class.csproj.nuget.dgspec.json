@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Учеба\\Проверка\\.NET\\Class\\class.csproj": {}
+    "D:\\Учеба\\Проверка\\.NET\\class\\class.csproj": {}
   },
   "projects": {
-    "D:\\Учеба\\Проверка\\.NET\\Class\\class.csproj": {
+    "D:\\Учеба\\Проверка\\.NET\\class\\class.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Учеба\\Проверка\\.NET\\Class\\class.csproj",
+        "projectUniqueName": "D:\\Учеба\\Проверка\\.NET\\class\\class.csproj",
         "projectName": "class",
-        "projectPath": "D:\\Учеба\\Проверка\\.NET\\Class\\class.csproj",
+        "projectPath": "D:\\Учеба\\Проверка\\.NET\\class\\class.csproj",
         "packagesPath": "C:\\Users\\evgen\\.nuget\\packages\\",
-        "outputPath": "D:\\Учеба\\Проверка\\.NET\\Class\\obj\\",
+        "outputPath": "D:\\Учеба\\Проверка\\.NET\\class\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\evgen\\AppData\\Roaming\\NuGet\\NuGet.Config",
