@@ -1,6 +1,26 @@
-﻿Console.WriteLine(Operations.Add(123, 222));         // 345
-Console.WriteLine(Operations.Subtract(534, 343));    // 191
-Console.WriteLine(Operations.Multiply(40, 20));    // 800
+﻿
+
+
+
+
+
+
+Person tom = new Person("Tom", 38);
+// сериализуем объект tom в код json
+string json = JsonConvert.SerializeObject(tom);
+Console.WriteLine(json);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Console.ReadLine();

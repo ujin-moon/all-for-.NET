@@ -16,3 +16,4 @@ D:\Учеба\Проверка\.NET\class\obj\Debug\net7.0\ref\class.dll
 D:\Учеба\Проверка\.NET\Class\bin\Debug\net7.0\MyLib.dll
 D:\Учеба\Проверка\.NET\Class\bin\Debug\net7.0\MyLib.pdb
 D:\Учеба\Проверка\.NET\Class\obj\Debug\net7.0\class.csproj.CopyComplete
+D:\Учеба\Проверка\.NET\class\bin\Debug\net7.0\Newtonsoft.Json.dll
