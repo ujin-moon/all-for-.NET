@@ -25,9 +25,8 @@ Console.WriteLine(human.Age);  // 1
 human.Age = 121;
 human.PrintInfo(human.Name, human.Age);
 
-Dogs bob = new Dogs{ dog_name = "bob", dog_age = 12 };//для required
-
-Console.WriteLine($"Кличка собаки: {bob.dog_name}, возраст: {bob.dog_age}");
+Dogs bob = new("Bobs", 7);
+Console.WriteLine($"Кличка собаки: {bob.dog_name}, возраст: {bob.age_dog}");
 
 Console.ReadLine();
 

@@ -8,8 +8,12 @@ namespace MyLib
 {
     public class Dogs
     {
-        public required string dog_name { get; set; } //required - бязательно надо определять
-        public required int dog_age { get; set; }
-
+        public string dog_name { get; init; } = "Sam";
+        public int age_dog { get; set; } = 12;
+        public Dogs(string name, int age) 
+        {
+            dog_name = name;    
+            age_dog = age;
+        }
     }
 }
