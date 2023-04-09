@@ -2,15 +2,14 @@
 {
     public class Person
     {
-        public int Age { get; set; }
-        static int retirementAge = 65;
-        public Person(int age) => Age = age;
-        public static void CheckRetirementStatus(Person person)//В статическом методе только статические переменные
+        static int retirementAge;
+        public static int RetirementAge => retirementAge;
+        static Person()//Создание статического конструктора
         {
-            if (person.Age >= retirementAge)
-                Console.WriteLine("Уже на пенсии");
+            if (DateTime.Now.Year == 2023)//Применение DateTime.Now.Year для проверки текущего года
+                retirementAge = 65;
             else
-                Console.WriteLine($"Сколько лет осталось до пенсии: {retirementAge - person.Age}");
+                retirementAge = 67;
         }
     }
 }

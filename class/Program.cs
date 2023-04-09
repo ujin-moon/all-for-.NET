@@ -1,7 +1,6 @@
 ﻿
 
-Person tom = new(71);
-Person.CheckRetirementStatus(tom);
+Console.WriteLine(Person.RetirementAge);
 
 
 Console.ReadLine();
