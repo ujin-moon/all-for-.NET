@@ -1,16 +1,11 @@
 ﻿
 
-Person bob = new(66);
-bob.СheckAge();     // Уже на пенсии
-
-Person tom = new(49);
-tom.СheckAge();     // Сколько лет осталось до пенсии: 28
-
-// получение статического поля
-Console.WriteLine(Person.retirementAge); // 65
-// изменение статического поля
-Person.retirementAge = 67;
-bob.СheckAge();
+var tom = new Person();
+var bob = new Person();
+var sam = new Person();
+var mike = new Person();
+var alex = new Person();
+Console.WriteLine($"Количество объектво класса Person: {Person.Counter}");  // 5
 
 Console.ReadLine();
 
