@@ -1,15 +1,9 @@
 ﻿namespace MyLib
 {
-    public class Person
+    public static class Operations
     {
-        static int retirementAge;
-        public static int RetirementAge => retirementAge;
-        static Person()//Создание статического конструктора
-        {
-            if (DateTime.Now.Year == 2023)//Применение DateTime.Now.Year для проверки текущего года
-                retirementAge = 65;
-            else
-                retirementAge = 67;
-        }
+        public static int Add(int x, int y) => x + y;
+        public static int Subtract(int x, int y) => x - y;
+        public static int Multiply(int x, int y) => x * y;
     }
 }
