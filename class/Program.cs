@@ -5,11 +5,10 @@
 
 
 
-Person tom = new Person("Tom", 38);
-// сериализуем объект tom в код json
-string json = JsonConvert.SerializeObject(tom);
-Console.WriteLine(json);
+Person tom = new Person("Tom");
+Console.WriteLine(tom.name);
 
+//tom.name = "Sam"; // !Ошибка: нельзя изменить
 
 
 
