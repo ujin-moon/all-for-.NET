@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "MyLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MyLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MyLib/1.0.0": {
+      "type": "project",
+      "path": "../MyLlib/MyLib.csproj",
+      "msbuildProject": "../MyLlib/MyLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "MyLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\evgen\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Учеба\\Проверка\\.NET\\class\\class.csproj",
+      "projectUniqueName": "D:\\Учеба\\Проверка\\.NET\\Class\\class.csproj",
       "projectName": "class",
-      "projectPath": "D:\\Учеба\\Проверка\\.NET\\class\\class.csproj",
+      "projectPath": "D:\\Учеба\\Проверка\\.NET\\Class\\class.csproj",
       "packagesPath": "C:\\Users\\evgen\\.nuget\\packages\\",
-      "outputPath": "D:\\Учеба\\Проверка\\.NET\\class\\obj\\",
+      "outputPath": "D:\\Учеба\\Проверка\\.NET\\Class\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\evgen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Учеба\\Проверка\\.NET\\MyLlib\\MyLib.csproj": {
+              "projectPath": "D:\\Учеба\\Проверка\\.NET\\MyLlib\\MyLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

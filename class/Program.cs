@@ -1,5 +1,7 @@
 ﻿
 
+using Persons;
+
 State state1 = new State(); // Структура State
 State state2 = new State();
 state2.x = 1;
@@ -18,8 +20,10 @@ country2.x = 7; // теперь и country1.x = 7, так как обе ссыл
                 // указывают на один объект в хипе
 Console.WriteLine(country1.x); // 7
 Console.WriteLine(country2.x); // 7
-Person person = new() { Name = "John", Age = 12 };
-person.PrintInfo("John", 12);
+Human human = new("Egor", "Frolov", 18);
+Console.WriteLine(human.Age);  // 1
+human.Age = 121;
+human.PrintInfo(human.Name, human.Age);
 Console.ReadLine();
 
 

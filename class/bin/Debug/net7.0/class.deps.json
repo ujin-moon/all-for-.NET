@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "class/1.0.0": {
+        "dependencies": {
+          "MyLib": "1.0.0"
+        },
         "runtime": {
           "class.dll": {}
+        }
+      },
+      "MyLib/1.0.0": {
+        "runtime": {
+          "MyLib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "class/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

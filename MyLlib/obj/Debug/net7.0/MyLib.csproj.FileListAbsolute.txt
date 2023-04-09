@@ -1,0 +1,12 @@
+D:\Учеба\Проверка\.NET\MyLlib\bin\Debug\net7.0\MyLib.deps.json
+D:\Учеба\Проверка\.NET\MyLlib\bin\Debug\net7.0\MyLib.dll
+D:\Учеба\Проверка\.NET\MyLlib\bin\Debug\net7.0\MyLib.pdb
+D:\Учеба\Проверка\.NET\MyLlib\obj\Debug\net7.0\MyLib.csproj.AssemblyReference.cache
+D:\Учеба\Проверка\.NET\MyLlib\obj\Debug\net7.0\MyLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\Проверка\.NET\MyLlib\obj\Debug\net7.0\MyLib.AssemblyInfoInputs.cache
+D:\Учеба\Проверка\.NET\MyLlib\obj\Debug\net7.0\MyLib.AssemblyInfo.cs
+D:\Учеба\Проверка\.NET\MyLlib\obj\Debug\net7.0\MyLib.csproj.CoreCompileInputs.cache
+D:\Учеба\Проверка\.NET\MyLlib\obj\Debug\net7.0\MyLib.dll
+D:\Учеба\Проверка\.NET\MyLlib\obj\Debug\net7.0\refint\MyLib.dll
+D:\Учеба\Проверка\.NET\MyLlib\obj\Debug\net7.0\MyLib.pdb
+D:\Учеба\Проверка\.NET\MyLlib\obj\Debug\net7.0\ref\MyLib.dll
