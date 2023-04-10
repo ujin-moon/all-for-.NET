@@ -1,5 +1,9 @@
-﻿Person bob = new("Andrew");
-bob.Print(); // вызов метода Print из класса Person
+﻿Person bob = new Person("Andrew");
+bob.Print();    // Name: Andrew
 
-Employee tom = new("Eugene", "Andersen");
-tom.Print(); // вызов метода Print из класса Employee
+Employee tom = new Employee("Eugene", "Andersen");
+tom.Print();    // Name: Eugene  Company: Andersen
+
+WriteLine(tom.Name);
+WriteLine(Person.minAge);
+WriteLine(Employee.minAge);
