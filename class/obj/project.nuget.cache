@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8eXrXyaBIX4iL6GIH3WAh+7h/hteC4rPXJ8ZB6ZkuGRDXiI6JrjFPsSYJ1WxE+hwowNLBY0xlWww6XweMOAMlg==",
+  "dgSpecHash": "C2PTUJwDTzuqrIYD05h9rXK8oEbvbNRlmllYVSG8a3juMsoT8obZ7yvoo+HVfc+XeNlhXIRfUfhaxjZPsqqgPw==",
   "success": true,
-  "projectFilePath": "D:\\Учеба\\Проверка\\.NET\\class\\class.csproj",
+  "projectFilePath": "D:\\Учеба\\Проверка\\.NET\\Class\\class.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evgen\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
