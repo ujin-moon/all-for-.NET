@@ -1,7 +1,9 @@
-﻿Messenger<Message, Person> google = new Messenger<Message, Person>();
+﻿// создаем банковский счет
+Account account = new Account(200);
+// Добавляем в делегат ссылку на метод PrintSimpleMessage
+account.RegisterHandler(PrintSimpleMessage);
+// Два раза подряд пытаемся снять деньги
+account.Take(100);
+account.Take(150);
 
-Person tom = new("Tom");
-Person bob = new("Bob");
-
-Message hello = new("Hello world");
-google.SendMessage(tom, bob, hello);
+void PrintSimpleMessage(string message) => Console.WriteLine(message);
