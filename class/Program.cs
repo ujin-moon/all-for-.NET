@@ -1,67 +1,42 @@
-﻿Counter counter3 = new Counter { Value = 23 };
-Counter counter4 = new Counter { Value = 45 };
+﻿//Вывод многострочной строки
+using System.Text.RegularExpressions;
 
-bool result = counter3 > counter4;
-Counter c3 = counter3 + counter4;
-WriteLine(c3.Value);
-WriteLine(result);
-
-
-
-var microsoft = new Company(new[]
-{
-    new Person("Tom"), new Person("Bob"), new Person("Sam"), new Person("Alice")
-});
-// получаем объект из индексатора
-Person firstPerson = microsoft[0];
-WriteLine(firstPerson.Name);  // Tom
-// переустанавливаем объект
-microsoft[0] = new Person("Mike");
-WriteLine(microsoft[0].Name);  // Mike
-
-WriteLine(firstPerson.Name);  // Tom
-
-Print();
-PrintValue("hello");
-
-string txt = """
+string txt = """ 
     if(i == love_you){
-    married == true;
+    married = true;
     }
-    else {
-    married == false;
+    else{
+    married = false;
     }
     """;
+WriteLine(txt);
 
-WriteLine(txt); 
 
-void Print()
+//Регулярные выражения
+string pattern = @"^(?("")(""[^""]+?""@)|(([0-9a-z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)(?<=[0-9a-z])@))" +
+                @"(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-z][-\w]*[0-9a-z]*\.)+[a-z0-9]{2,17}))$";
+var data = new string[]
 {
-    string text = """
-              Привет
-              Мир
-              Как 
-              Дела?
-              """;
-    WriteLine(text);
+    "tom@gmail.com",
+    "+12345678999",
+    "bob@yahoo.com",
+    "+13435465566",
+    "sam@yandex.ru",
+    "+43743989393"
+};
+
+WriteLine("Email List");
+for (int i = 0; i < data.Length; i++)
+{
+    if (Regex.IsMatch(data[i], pattern, RegexOptions.IgnoreCase))
+    {
+        WriteLine(data[i]);
+    }
 }
 
-void PrintValue(string val)
-{
-    string text = $"""
-              <element attr="content">
-                <body>
-                {val}
-                </body>
-              </element>
-              """;
-    //// или так 
-    //string text =  $$"""
-    //          <element attr="content">
-    //            
-    //            {{val}}
-    //            
-    //          </element>
-    //          """;
-    WriteLine(text);
-}
+string phoneNumber = "+1(876)-234-12-98";
+string pattern1 = @"\D";
+string target = "";
+Regex regex = new Regex(pattern1);
+string result = regex.Replace(phoneNumber, target);
+WriteLine(result);  // 18762341298
