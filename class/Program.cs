@@ -1,4 +1,6 @@
-﻿DateTime now = DateTime.Now;
+﻿
+
+DateTime now = DateTime.Now;
 
 WriteLine($"D: {now.ToString("D")}");
 WriteLine($"d: {now.ToString("d")}");
@@ -29,3 +31,9 @@ TimeOnly time = new TimeOnly(14, 23, 30);
 WriteLine(time.Hour);       // 14
 WriteLine(time.Minute);     // 23
 WriteLine(time.Second);     // 30
+
+
+
+ 
+ScriptEngine engine = Python.CreateEngine();
+engine.Execute("print('hello, world')");
